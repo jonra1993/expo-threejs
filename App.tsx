@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Splash from './src/screens/Splash';
+import Splash from './src/pages/Splash';
 import { useState } from 'react';
-import Home from './src/screens/Home';
+import Home from './src/pages/Home';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
